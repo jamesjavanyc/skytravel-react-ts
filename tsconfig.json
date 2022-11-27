@@ -21,12 +21,13 @@
     "jsx": "react-jsx",
     "baseUrl": "./",
     "paths": {
-        "@/*": [
-            "./src/*"
-        ]
+      "@/*": [
+        "./src/*"
+      ]
     }
   },
   "include": [
-    "src"
-  ]
+    "src/*"
+  ],
+  "extends": "./path.tsconfig.json",
 }
