@@ -1,5 +1,6 @@
 import { baseURL } from "@/constants"
 import {request} from "@/model/api/axios-request"
+import {LoadingWrapper} from "@/utils/hoc"
 
 const Dev = () => {
     const testEcho = ():string=>{
@@ -13,6 +14,7 @@ const Dev = () => {
             <p>Welcome, developer!</p>
             <p>Development server location: {baseURL}</p>
             <p>{testEcho()}</p>
+            <div><LoadingWrapper/></div>
         </>
     )
 }

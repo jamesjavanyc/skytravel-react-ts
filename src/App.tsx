@@ -1,4 +1,3 @@
-import './App.css';
 import Dev from "@/view/pages/dev";
 
 function App() {
